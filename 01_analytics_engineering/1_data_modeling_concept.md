@@ -281,7 +281,6 @@ SELECT
   dim_time.pickup_month,
   dim_time.pickup_day,
   fact_trips.dropoff_datetime,
-  -- It seems like you've repeated 'dim_time.dropoff_datetime' multiple times. You should list it only once.
   dim_time.dropoff_datetime, 
   fact_trips.vendor_id,
   dim_vendor.vendor_name,
