@@ -54,3 +54,11 @@ job_execution_timeout_seconds [300]: (enter)
 [2] EU
 Desired location option (enter a number): 1
 ```
+
+After done will create directory like this:
+![sa2](../images/1_3_sa.png)
+
+```sh
+cd fellowship
+run "dbt debug"
+```
